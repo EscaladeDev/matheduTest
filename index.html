@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MathEDU | Knowledge &amp; Certification</title>
+    <title>MathEDU | College Algebra Week 1</title>
     <meta
       name="description"
-      content="Gain knowledge. Get college credits. Graduate earlier. Owe less."
+      content="MathEDU course week page mock-up for College Algebra Week 1."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,138 +23,159 @@
 
       <div class="hero-shell">
         <div class="topbar reveal reveal-quick">
-          <a href="#" class="brand" aria-label="MathEDU home">
+          <a href="index.html" class="brand" aria-label="MathEDU home">
             <span class="brand-math">math</span><span class="brand-edu">edu</span>
           </a>
-
-          <div class="video-drawer" id="video-drawer">
-            <button
-              type="button"
-              class="video-toggle magnet-button"
-              id="video-toggle"
-              aria-expanded="false"
-              aria-controls="video-panel"
-            >
-              <span>Watch overview</span>
-              <span class="material-symbols-outlined" aria-hidden="true">play_circle</span>
-            </button>
-
-            <div class="video-panel" id="video-panel" aria-hidden="true">
-              <div class="video-panel-shell">
-                <div class="video-panel-top">
-                  <p>Program overview</p>
-                  <button type="button" class="video-close" id="video-close" aria-label="Close video">
-                    <span class="material-symbols-outlined" aria-hidden="true">close</span>
-                  </button>
-                </div>
-                <video
-                  id="overview-video"
-                  class="overview-video"
-                  controls
-                  preload="metadata"
-                  playsinline
-                >
-                  <source src="overview-video.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div class="hero-content reveal reveal-hero">
-          <p class="eyebrow">Knowledge &amp; Certification</p>
-          <h1>
-            <span>Gain Knowledge.</span>
-            <span class="headline-accent">Get college credits.</span>
-          </h1>
-          <p class="hero-subtitle">Graduate earlier. Owe Less.</p>
+          <p class="eyebrow">Course</p>
+          <h1>College Algebra</h1>
         </div>
       </div>
     </header>
 
-    <main>
-      <section class="section" id="courses">
-        <div class="card course-hub reveal">
-          <div class="hub-heading">
-            <h2>
-              <span class="hub-lead">
-                <span class="hub-brand"><span class="hub-brand-math">math</span>edu</span>
-                provides courses
-              </span>
-              <span class="hub-secondary">to prepare you for <span class="hub-accent">free</span> College Level Examination Program (CLEP) credits.</span>
-            </h2>
-          </div>
-
-          <div class="course-grid" role="tablist" aria-label="CLEP prep courses">
-            <button type="button" class="course-card is-active" data-course="mathematics" aria-pressed="true">
-              <span class="material-symbols-outlined course-icon" aria-hidden="true">calculate</span>
-              <span class="course-card-title">College Mathematics</span>
-            </button>
-
-            <button type="button" class="course-card" data-course="algebra" aria-pressed="false">
-              <span class="material-symbols-outlined course-icon" aria-hidden="true">functions</span>
-              <span class="course-card-title">College Algebra</span>
-            </button>
-
-            <button type="button" class="course-card" data-course="precalculus" aria-pressed="false">
-              <span class="material-symbols-outlined course-icon" aria-hidden="true">query_stats</span>
-              <span class="course-card-title">College Precalculus</span>
-            </button>
-
-            <button type="button" class="course-card" data-course="calculus" aria-pressed="false">
-              <span class="material-symbols-outlined course-icon" aria-hidden="true">show_chart</span>
-              <span class="course-card-title">College Calculus</span>
-            </button>
-          </div>
-
-          <div class="course-details" id="course-details" aria-live="polite">
-            <div class="course-details-head">
-              <span class="material-symbols-outlined detail-icon" id="detail-icon" aria-hidden="true">calculate</span>
-              <div>
-                <p class="detail-kicker">Course topics</p>
-                <h3 id="detail-title">College Mathematics</h3>
-                <p class="detail-meta" id="detail-meta">3 credits</p>
-              </div>
+    <main id="course-content">
+      <section class="section section-overlap">
+        <div class="card course-summary reveal">
+          <div class="summary-top">
+            <div class="summary-main">
+              <p class="section-kicker">Week 1</p>
+              <h2>Algebraic Operations</h2>
+              <p class="summary-copy">
+                Students will build deep conceptual understanding, develop mathematical habits of mind,
+                and see how Week 1 skills connect to College Algebra and the CLEP exam.
+              </p>
             </div>
 
-            <ul class="topic-list" id="topic-list"></ul>
+            <div class="summary-stats" aria-label="Quick course facts">
+              <div class="stat-chip">
+                <span class="material-symbols-outlined" aria-hidden="true">school</span>
+                <div>
+                  <strong>CLEP focus</strong>
+                  <span>Algebraic Operations</span>
+                </div>
+              </div>
+              <div class="stat-chip">
+                <span class="material-symbols-outlined" aria-hidden="true">menu_book</span>
+                <div>
+                  <strong>OpenStax</strong>
+                  <span>Sections 1.1–1.2</span>
+                </div>
+              </div>
+              <div class="stat-chip">
+                <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+                <div>
+                  <strong>Pacing</strong>
+                  <span>10–12 hours · Flexible weekly pacing</span>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <p class="hub-footer">
-            STEM majors can earn <strong class="hub-footer-emphasis">9 college credits, saving ≈ $8,100</strong>
-            on in-state costs (tuition, room, board, etc).
-          </p>
         </div>
       </section>
 
-      <section class="section section-tight" id="explore">
-        <div class="card explore-card reveal">
-          <h2>Explore courses</h2>
-          <form class="email-form" id="email-form" novalidate>
-            <label class="sr-only" for="email">Enter email</label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              placeholder="Enter email"
-              autocomplete="email"
-              required
-            />
-            <button type="submit" class="button button-primary magnet-button">
-              Send course link by email
-            </button>
-            <p class="form-message" id="form-message" aria-live="polite"></p>
-          </form>
-        </div>
+      <section class="section card-grid card-grid-three">
+        <article class="card content-card reveal">
+          <div class="card-head">
+            <span class="material-symbols-outlined card-icon" aria-hidden="true">school</span>
+            <div>
+              <p class="section-kicker">CLEP</p>
+              <h3>CLEP focus</h3>
+            </div>
+          </div>
+          <ul class="clean-list">
+            <li>Real-number classification and properties appear throughout later algebra topics.</li>
+            <li>Strong fluency here prevents careless errors later in the test.</li>
+            <li>Week 1 builds the core habits that support success across the CLEP exam.</li>
+          </ul>
+        </article>
+
+        <article class="card content-card reveal">
+          <div class="card-head">
+            <span class="material-symbols-outlined card-icon" aria-hidden="true">menu_book</span>
+            <div>
+              <p class="section-kicker">Textbook</p>
+              <h3>OpenStax</h3>
+            </div>
+          </div>
+          <ul class="clean-list">
+            <li>Section 1.1 Real Numbers: Algebra Essentials</li>
+            <li>Section 1.2 Exponents and Scientific Notation</li>
+          </ul>
+        </article>
+
+        <article class="card content-card reveal">
+          <div class="card-head">
+            <span class="material-symbols-outlined card-icon" aria-hidden="true">schedule</span>
+            <div>
+              <p class="section-kicker">Time</p>
+              <h3>Pacing</h3>
+            </div>
+          </div>
+          <ul class="clean-list">
+            <li>5 sessions, or spread over 7 days for self-paced learners.</li>
+            <li>Daily structure: Read → Try It → Practice → Reflection → CLEP mini-drill.</li>
+            <li>Tools: OpenStax, Desmos, notebook for error tracking, optional graphing calculator app.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section section-tight">
+        <article class="card content-card reveal goals-card-single">
+          <div class="card-head">
+            <span class="material-symbols-outlined card-icon" aria-hidden="true">flag</span>
+            <div>
+              <p class="section-kicker">Outcomes</p>
+              <h3>Weekly learning goals</h3>
+            </div>
+          </div>
+          <div class="soft-panel goals-panel">
+            <ol class="number-list">
+              <li>Classify, operate with, and simplify expressions involving real numbers with full justification.</li>
+              <li>Apply all exponent rules, including negative and zero exponents, fluently.</li>
+              <li>Convert between standard and scientific notation and use it in context.</li>
+              <li>Explain the why behind each property and rule.</li>
+              <li>Self-assess common pitfalls and track error patterns.</li>
+            </ol>
+          </div>
+        </article>
+      </section>
+
+      <section class="section section-tight">
+        <article class="card day-nav-card reveal">
+          <div class="card-head day-nav-head">
+            <span class="material-symbols-outlined card-icon" aria-hidden="true">calendar_month</span>
+            <div>
+              <p class="section-kicker">Week 1</p>
+              <h3>Daily lessons</h3>
+            </div>
+          </div>
+          <div class="day-button-row">
+            <a class="day-button" href="day1.html">
+              <span class="day-button-title">Day 1</span>
+              <span class="day-button-detail">1.1 Part 1: The Real Number System &amp; Properties</span>
+            </a>
+            <a class="day-button" href="day2.html">
+              <span class="day-button-title">Day 2</span>
+              <span class="day-button-detail">1.1 Part 2: Order of Operations &amp; Simplifying Expressions</span>
+            </a>
+            <a class="day-button" href="day3.html">
+              <span class="day-button-title">Day 3</span>
+              <span class="day-button-detail">1.2 Part 1: Exponent Rules (Integer Exponents)</span>
+            </a>
+            <a class="day-button" href="day4.html">
+              <span class="day-button-title">Day 4</span>
+              <span class="day-button-detail">1.2 Part 2: Scientific Notation &amp; Mixed Practice</span>
+            </a>
+            <a class="day-button" href="day5.html">
+              <span class="day-button-title">Day 5</span>
+              <span class="day-button-detail">Week 1 Review &amp; Mini-Assessment</span>
+            </a>
+          </div>
+        </article>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <p>© 2026 mathedu.world</p>
-      </div>
-    </footer>
 
     <script src="script.js"></script>
   </body>
